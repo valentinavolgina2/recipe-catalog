@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CSD 230 Final Project - Valentina Volgina -->
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="top"
+    android:stretchColumns="*"
+    tools:context="edu.lwtech.finalp.IngredientEditActivity">
+
+    <TableRow>
+        <EditText
+            android:layout_span="12"
+            android:layout_height="80dp"
+            android:id="@+id/ingredientText"
+            android:hint="@string/ingredient_hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            style="@style/QAEditText" />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:layout_span="6"
+            android:id="@+id/amountText"
+            android:layout_height="80dp"
+            android:hint="@string/amount_hint"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            style="@style/QAEditText"
+            />
+        <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_span="6"
+            android:id="@+id/autocomplete_unit"
+
+            android:layout_height="80dp"
+            style="@style/QAEditText"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_span="12"
+            android:layout_height="80dp"
+            android:id="@+id/unitsInfo"
+            android:textAlignment="center"
+            style="@style/QAEditText" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_span="12"
+            android:id="@+id/switchUnitsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_units"
+            style="@style/ButtonStyle"
+            android:onClick="switchUnitsButtonClick" />
+    </TableRow>
+
+
+
+</TableLayout>

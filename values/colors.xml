@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CSD 230 Final Project - Valentina Volgina -->
+<resources>
+    <color name="colorPrimary">#1f1730</color>
+    <color name="colorPrimaryDark">#ABBDCA</color>
+    <color name="colorAccent">#1f1730</color>
+    <color name="colorSubject">#EEEEEE</color>
+
+    <!-- Dark theme colors in colors.xml -->
+    <color name="colorBackgroundDark">#000</color>
+    <color name="colorAppBar">#023</color>
+    <color name="colorText">#BBB</color>
+    <color name="colorTextSecondary">#999</color>
+    <color name="colorButton">#555</color>
+
+    <array name="subjectColors">
+        <item>#a22a2a</item>
+        <item>#1f1730</item>
+        <item>#A89E95</item>
+        <item>#6F615D</item>
+        <item>#122113</item>
+    </array>
+</resources>

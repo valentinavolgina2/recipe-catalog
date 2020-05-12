@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CSD 230 Study Helper - Valentina Volgina -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_unit"
+        android:entryValues="@array/pref_unit_values"
+        android:key="pref_unit"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_unit" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_subject_order"
+        android:entryValues="@array/pref_subject_order_values"
+        android:key="pref_subject_order"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_type_order" />
+</PreferenceScreen>
